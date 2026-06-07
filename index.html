@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <!-- input field to display the result -->
+      <input type="text" readonly id="display" value="0" />
+
+      <!-- calculator buttons -->
+      <div class="btn-div">
+        <button class="btn top-btn" onclick="clearDisplay()">AC</button>
+        <button class="btn top-btn" onclick="clearOne()">&larr;</button>
+        <button class="btn top-btn" onclick="appendCalc('%')">%</button>
+        <button class="btn right-btn" onclick="appendCalc('/')">
+          &divide;
+        </button>
+        <button class="btn" onclick="appendCalc('7')">7</button>
+        <button class="btn" onclick="appendCalc('8')">8</button>
+        <button class="btn" onclick="appendCalc('9')">9</button>
+        <button class="btn right-btn" onclick="appendCalc('*')">&times;</button>
+        <button class="btn" onclick="appendCalc('4')">4</button>
+        <button class="btn" onclick="appendCalc('5')">5</button>
+        <button class="btn" onclick="appendCalc('6')">6</button>
+        <button class="btn right-btn" onclick="appendCalc('-')">-</button>
+        <button class="btn" onclick="appendCalc('1')">1</button>
+        <button class="btn" onclick="appendCalc('2')">2</button>
+        <button class="btn" onclick="appendCalc('3')">3</button>
+        <button class="btn right-btn" onclick="appendCalc('+')">+</button>
+        <button class="btn" onclick="appendCalc('00')">00</button>
+        <button class="btn" onclick="appendCalc('0')">0</button>
+        <button class="btn" onclick="appendCalc('.')">.</button>
+        <button class="btn right-btn" onclick="displayCalc()">=</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
