@@ -1,4 +1,6 @@
 # Calculator Application
+---
+link: [click here to visit](https://ubaid-x.github.io/Calculator/)
 
 A simple, responsive, and visually clean calculator built with HTML, CSS, and JavaScript. It performs basic arithmetic operations, percentage calculations, and includes an intuitive user interface.
 
