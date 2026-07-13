@@ -1,6 +1,6 @@
 # Calculator Application
 ---
-link: [click here to visit](https://ubaid-x.github.io/Calculator/)
+link: [click here to visit](https://calculator-nine-orpin-70.vercel.app/)
 
 A simple, responsive, and visually clean calculator built with HTML, CSS, and JavaScript. It performs basic arithmetic operations, percentage calculations, and includes an intuitive user interface.
 
